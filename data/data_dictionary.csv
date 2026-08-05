@@ -1,0 +1,25 @@
+column,type,description
+member_id,string,Unique member id
+age,int,Member age in years
+sex,string,F / M / Other
+distance_km,float,Distance from home to gym (km); nearer = stickier
+prior_gym_experience,int,"1 if had a gym membership before, else 0"
+joined_with_friend,int,1 if referred/joined with a friend (accountability)
+contract_type,string,month_to_month / 6_month / annual
+monthly_fee_usd,float,Monthly membership fee (USD)
+signup_week_january,int,Week of January they signed up (1-4)
+promo_used,int,1 if joined via a New-Year promo
+primary_goal,string,weight_loss / muscle_gain / general_health / event_prep
+goal_aggressiveness,int,1 (realistic) to 5 (unrealistic) goal intensity
+week1_visits,int,Gym visits in week 1
+week2_visits,int,Gym visits in week 2
+week3_visits,int,Gym visits in week 3
+week4_visits,int,Gym visits in week 4
+avg_weekly_classes,int,Avg group fitness classes attended per week
+booked_induction,int,1 if booked an intro/induction session
+personal_trainer,int,1 if using a personal trainer
+app_installed,int,1 if installed the gym app
+avg_session_minutes,int,Average workout session length (minutes)
+guest_passes_used,int,Number of guest passes used
+locker_rented,int,1 if rented a locker
+churned_by_february,int,"TARGET: 1 if ghosted/cancelled by end of February, else 0"
