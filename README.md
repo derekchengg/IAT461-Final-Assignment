@@ -20,9 +20,9 @@ monthly fee and other first month signals, then isolate how much the fee alone d
 
 ## Where this is
 
-This is the **Checkpoint 1** submission, due Aug 5, which is the EDA on the dataset. The notebook has
-the data documentation, the EDA, the supervised versus unsupervised direction for both problems, and
-the client check in. The modelling is Checkpoint 2 work (Aug 9) and is not in here yet.
+This is the **Checkpoint 2** draft, due Aug 9, with both problems modelled. The notebook runs from the
+data documentation and EDA through the direction for each problem, then Problem 1 in section 4 and
+Problem 2 in section 5.
 
 ## What the EDA found
 
@@ -45,7 +45,7 @@ fee effect in dollars and not a feature ranking. Full reasoning in sections 3.1 
 ## Repository layout
 
 ```
-IAT461_Final_DerekCheng_dca130.ipynb   the Checkpoint 1 notebook, runs top to bottom
+IAT461_Final_DerekCheng_dca130.ipynb   the project notebook, runs top to bottom
 Report.pdf                             the progress report
 data/gym_ghosts_master.csv             50,000 members x 24 columns
 data/data_dictionary.csv               column dictionary shipped with the dataset
@@ -66,4 +66,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels scipy
 jupyter lab IAT461_Final_DerekCheng_dca130.ipynb
 ```
 
-Runs top to bottom in about 20 seconds. `RANDOM_STATE = 42` throughout.
+Runs top to bottom in about 90 seconds. `RANDOM_STATE = 42` throughout.
