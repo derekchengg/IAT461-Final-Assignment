@@ -46,6 +46,8 @@ fee effect in dollars and not a feature ranking. Full reasoning in sections 3.1 
 
 ```
 IAT461_Final_DerekCheng_dca130.ipynb   the project notebook, runs top to bottom
+app.py                                 Streamlit scenario tool for the client
+requirements.txt                       dependencies
 Report.pdf                             the progress report
 data/gym_ghosts_master.csv             50,000 members x 24 columns
 data/data_dictionary.csv               column dictionary shipped with the dataset
@@ -67,3 +69,15 @@ jupyter lab IAT461_Final_DerekCheng_dca130.ipynb
 ```
 
 Runs top to bottom in about 90 seconds. `RANDOM_STATE = 42` throughout.
+
+## The Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+A scenario tool for the client, not a second analysis. The pricing tab moves the monthly fee and
+shows predicted churn, members retained and year one revenue against the retained revenue curve.
+The outreach tab moves the decision threshold and shows how many members get flagged and how many
+leavers that catches. Pricing uses M3 from notebook section 5.5, flagging uses the model from 5.2,
+so the numbers match the notebook.
